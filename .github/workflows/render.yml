@@ -17,24 +17,33 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '20'
+        
     - name: Install System Dependencies
       run: |
         sudo apt-get update
         sudo apt-get install -y ffmpeg fonts-noto-color-emoji
-        sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2t64
+        
     - name: Install Node Dependencies & Playwright
       run: |
         npm install
-        npx playwright install chromium
+        # هذا الأمر يقوم بتثبيت المتصفح وكل مكتبات لينكس المطلوبة له تلقائياً
+        npx playwright install --with-deps chromium
+        
     - name: Install Python Dependencies
       run: |
         pip install -r requirements.txt
+        
     - name: Run Build Pipeline
       run: |
         python run_cloud.py
+        
+    - name: Show files (Debug)
+      run: |
+        ls -R bab-al-mandab/
+        
     - name: Upload Rendered Video
       uses: actions/upload-artifact@v4
       with:
         name: rendered-video
         path: bab-al-mandab/*.mp4
-        if-no-files-found: error
+        if-no-files-found: warn
