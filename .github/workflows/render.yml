@@ -1,0 +1,48 @@
+name: Render Maven Map Video
+
+on:
+  workflow_dispatch: # يتيح لك تشغيله يدوياً بضغطة زر
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Setup Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+
+    - name: Install System Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ffmpeg fonts-noto-color-emoji
+        sudo apt-get install -y libnss3 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 libxkbcommon0 libxcomposite1 libxdamage1 libxfixes3 libxrandr2 libgbm1 libasound2
+
+    - name: Install Node Dependencies & Playwright
+      run: |
+        npm install
+        npx playwright install chromium
+
+    - name: Install Python Dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run Build Pipeline
+      run: |
+        python run_cloud.py
+
+    - name: Upload Rendered Video
+      uses: actions/upload-artifact@v4
+      with:
+        name: rendered-video
+        path: bab-al-mandab/*.mp4
+        if-no-files-found: error
