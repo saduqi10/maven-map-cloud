@@ -1,0 +1,1 @@
+{ "name": "my-map-short", "lang": "ar", "engine": "edge", "voice": "ar-SA-HamedNeural", "rate": "+6%", "maxGap": 0.18, "lead": 0.15, "fps": 60, "lufs": -14, "true_peak": -1.5 }

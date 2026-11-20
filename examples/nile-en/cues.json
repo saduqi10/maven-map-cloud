@@ -1,0 +1,13 @@
+{ "duck_db": -14,
+  "cues": [
+  {"t": 0.0,                "file": "LIB:transitions/swoosh_flying.wav",   "gain": -17, "max": 1.2, "fade": 0.5, "note": "open on Egypt"},
+  {"t": "word:France",      "file": "LIB:impacts/stomp.wav",               "gain": -21, "max": 0.6, "note": "France lands on Egypt"},
+  {"t": "word:everyone",    "file": "LIB:transitions/sweep_fast.wav",      "gain": -18, "align": "peak", "max": 0.8, "note": "push into the valley"},
+  {"t": "word:thin",        "file": "LIB:water/bubble_single.wav",         "gain": -18, "max": 0.5, "note": "the green line draws"},
+  {"t": "word:Why",         "file": "LIB:pops/pop_light_whoosh.wav",       "gain": -17, "max": 0.6, "note": "Why?"},
+  {"t": "word:Nile",        "file": "LIB:writing/fast_writing.wav",        "gain": -21, "max": 0.9, "fade": 0.3, "note": "the name writes itself"},
+  {"t": "word:outside",     "file": "LIB:nature/desert.wav",               "gain": -25, "max": 2.2, "fade": 0.8, "note": "desert wind as it darkens"},
+  {"t": "word:hundred",     "file": "LIB:tension/tick_fast.wav",           "gain": -22, "max": 1.1, "fade": 0.2, "note": "counter + people"},
+  {"t": "word:five",        "file": "LIB:pops/pop_hard_click.wav",         "gain": -17, "max": 0.5, "note": "5%"},
+  {"t": "word:all",         "file": "LIB:nature/river_birds.wav",          "gain": -25, "max": 2.6, "fade": 1.2, "note": "the river, end"}
+  ] }

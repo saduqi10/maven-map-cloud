@@ -1,0 +1,7 @@
+# Maven Map, Python side (voice, timing, imagery, mix)
+numpy
+scipy
+soundfile
+pillow
+edge-tts
+faster-whisper>=1.0

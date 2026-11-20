@@ -1,0 +1,13 @@
+{
+ "name": "maven-map-hormuz-demo",
+ "lang": "ar",
+ "engine": "edge",
+ "voice": "ar-SA-HamedNeural",
+ "rate": "+6%",
+ "maxGap": 0.18,
+ "lead": 0.15,
+ "fps": 120,
+ "lufs": -14,
+ "true_peak": -1.5,
+ "look": "night"
+}

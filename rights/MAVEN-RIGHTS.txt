@@ -1,0 +1,48 @@
+MAVEN MAP: RIGHTS
+=================
+
+Maven Rights. Copyright (c) 2026 Maven. All rights reserved.
+Instagram: @maven.iqq
+YouTube:   maveniqq
+Telegram:  t.me/Maveniq
+
+1. OWNER
+   Maven Map belongs to Maven. That covers its name, instructions
+   (SKILL.md and references), map engine, globe and imagery pipeline,
+   scripts, story format, highlight styles, icon and graphic designs,
+   examples and documentation.
+
+2. WHAT YOU MAY DO
+   You may download Maven Map for free and use it to make videos,
+   including videos you earn money from. The videos you make are yours.
+   You may change your own copy for your own use.
+
+3. WHAT YOU MAY NOT DO WITHOUT MAVEN'S WRITTEN PERMISSION
+   - Sell it, in whole or in part.
+   - Publish or share it, changed or unchanged, except by sharing
+     Maven's own link.
+   - Remove Maven's name or this folder, or present it as your own.
+
+4. WHAT EVERY VIDEO NEEDS
+   The satellite pictures are downloaded from EOxCloudless 2016 under the
+   Creative Commons Attribution 4.0 licence. Put this line in the
+   description of every video you make with Maven Map:
+   Satellite imagery: EOxCloudless 2016 by EOX IT Services GmbH
+   (contains modified Copernicus Sentinel data 2016), CC BY 4.0 -
+   https://cloudless.eox.at
+
+5. THIRD-PARTY PARTS (not owned by Maven)
+   - Borders and rivers (data/world.json, data/rivers.json) come from
+     Natural Earth, which is in the public domain.
+   - Lalezar, IBM Plex Sans Arabic, Aref Ruqaa, DM Serif Display and
+     Poppins are in engine/fonts under the SIL Open Font License 1.1
+     (the OFL-*.txt files there). They may not be sold on their own.
+   - Playwright, Chromium, ffmpeg, Edge TTS and faster-whisper are
+     separate tools that you install under their own licences.
+   - Sound effects are not included; use your own library.
+   Details: rights/THIRD_PARTY.md
+
+6. NO WARRANTY
+   Maven Map is provided "as is", without warranty of any kind.
+
+Permissions: contact Maven on Instagram @maven.iqq

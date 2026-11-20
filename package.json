@@ -1,0 +1,11 @@
+{
+ "name": "maven-map",
+ "private": true,
+ "type": "module",
+ "dependencies": {
+  "playwright": "^1.65.1"
+ },
+ "description": "Maven Map by Maven (@maven.iqq): map-explainer Shorts on real satellite imagery",
+ "license": "SEE LICENSE IN rights/MAVEN-RIGHTS.txt",
+ "version": "1.0.0"
+}

@@ -1,0 +1,11 @@
+{ "duck_db": -14,
+  "cues": [
+  {"t": 1.15,                 "file": "LIB:transitions/whoosh_air.wav",     "gain": -8,  "max": 1.6, "fade": 0.5, "note": "the dive from space"},
+  {"t": "word:هرمز",          "file": "LIB:pops/pop_light_whoosh.wav",      "gain": -13, "max": 0.8, "note": "strait label"},
+  {"t": "word:إيران",         "file": "LIB:transitions/swoosh_short.wav",   "gain": -14, "max": 0.8, "note": "Iran wipes in"},
+  {"t": "word:وعمان",         "file": "LIB:pops/pop_dry.wav",               "gain": -12, "max": 0.6, "note": "Oman pops"},
+  {"t": "word:عرضه",          "file": "LIB:transitions/whoosh_fast.wav",    "gain": -11, "align": "peak", "max": 0.9, "note": "push into the gap"},
+  {"t": "word:تسعة",          "file": "LIB:pops/pop_hard_click.wav",        "gain": -15, "max": 0.5, "note": "39 km"},
+  {"t": "word:وكل",           "file": "LIB:water/windy_sea.wav",            "gain": -21, "max": 4.4, "fade": 1.2, "note": "sea under the traffic"},
+  {"t": "word:عشرين",         "file": "LIB:impacts/bass_hit.wav",           "gain": -13, "max": 1.4, "fade": 0.5, "note": "20 million"}
+  ] }
